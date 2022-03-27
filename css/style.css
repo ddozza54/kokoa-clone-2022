@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variables.css";
 
 body{
     font-family: 'Open Sans', sans-serif;
@@ -34,10 +35,11 @@ margin: 0px 30px;
     border-bottom: 1px solid rgba(0,0,0,0.2);
     font-size: 18px;
 margin-bottom: 15px;
+transition: border-color 0.3s ease-in-out;
 }
 #login-form input::placeholder{
 color: rgba(0,0,0,0.4);
 }
-#login-form input::value{
-    border: none;
-}  ???
+#login-form input:focus{
+border-color: var(--yellow);
+}
