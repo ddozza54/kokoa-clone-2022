@@ -45,3 +45,7 @@ color: rgba(0,0,0,0.5);
 .user-component__friends{
     margin: 20px 0px;
 }
+.user-component__time{
+    margin-bottom: 10px;
+    display: block;
+}
