@@ -35,6 +35,10 @@
     text-align: center;
     color: var(--grey50);
     font-size: 18px;
+}
 
-
+.open-chats__header {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.8;
 }
