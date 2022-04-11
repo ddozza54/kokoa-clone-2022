@@ -47,3 +47,16 @@
 .open-chats__header span {
     opacity: 0.6;
 }
+
+.open-post {
+    display: flex;
+}
+
+.open-post__title {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+    text-transform: uppercase;
+}
