@@ -25,8 +25,14 @@
     width: 60px;
     height: 60px;
     background-color: var(--yellow);
-    border-radius: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.more-suggestions__icon-image i {
     color: white;
-    text-align: center;
-    text-justify: ;
+    font-size: 32px;
 }
