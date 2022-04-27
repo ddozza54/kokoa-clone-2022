@@ -62,7 +62,8 @@
 .message__bubble {
     background-color: white;
     padding: 13px;
-    border-radius: 20%;
+    border-radius: 15px;
+    border-top-left-radius: 0;
     margin-right: 5px;
 }
 
