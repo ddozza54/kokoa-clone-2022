@@ -50,9 +50,24 @@
 }
 
 .message__author {
+    margin-bottom: 15px;
+    display: block;
+}
+
+.message__info {
+    display: flex;
+    align-items: flex-end;
+}
+
+.message__bubble {
+    background-color: white;
+    padding: 13px;
+    border-radius: 20%;
+    margin-right: 5px;
+}
+
+.message__author,
+.message__time {
     opacity: 0.8;
     font-size: 13px;
-    margin-bottom: 10px;
-    display: block;
-
 }
