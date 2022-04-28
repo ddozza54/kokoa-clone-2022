@@ -40,7 +40,10 @@
 .message-row {
     width: 100%;
     display: flex;
+    margin-bottom: 25px;
 }
+
+
 
 .message-row img {
     width: 50px;
@@ -50,7 +53,7 @@
 }
 
 .message__author {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     display: block;
 }
 
@@ -62,6 +65,7 @@
 .message__bubble {
     background-color: white;
     padding: 13px;
+    font-size: 18px;
     border-radius: 15px;
     border-top-left-radius: 0;
     margin-right: 5px;
@@ -70,5 +74,9 @@
 .message__author,
 .message__time {
     opacity: 0.8;
-    font-size: 13px;
+    font-size: 14px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
 }
