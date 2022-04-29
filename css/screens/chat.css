@@ -101,6 +101,7 @@
     display: flex;
     justify-content: space-between;
     padding: 5px 25px;
+    box-sizing: border-box;
     align-items: center;
 }
 
@@ -110,9 +111,45 @@
 
 .reply .reply__column:last-child {
     width: 90%;
+    position: relative;
+}
+
+.reply i {
+    opacity: 0.5;
 }
 
 .reply input {
-    height: 30px;
+    padding: 15px;
     width: 100%;
+    border: var(--main-border);
+    border-radius: 20px;
+}
+
+.reply__column:last-child>i,
+.reply__column:last-child button {
+    position: absolute;
+    right: -25px;
+    top: 10px;
+}
+
+.reply__column:last-child>i {
+    right: 10px;
+    top: 25px;
+}
+
+.reply__column button {
+    background-color: var(--yellow);
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.reply__column button i {
+    opacity: 1;
+}
+
+.reply__column button:focus,
+.reply__column button:active {
+    outline: none;
 }
