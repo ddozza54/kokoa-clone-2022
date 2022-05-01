@@ -52,7 +52,6 @@
 
 @keyframes appearBtnAnimation {
     from {
-        transform: translateY(50px);
         opacity: 0;
     }
 
@@ -63,6 +62,7 @@
 }
 
 .nav__btn {
+    transform: translateY(50px);
     animation: appearBtnAnimation 1s ease-in-out;
 }
 
