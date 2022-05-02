@@ -98,5 +98,10 @@
 
 .open-post__heart-count span {
     margin-left: 3px;
+}
 
+@keyframes heartBeat{
+    0%{}
+    50%{}
+    100%{}
 }
